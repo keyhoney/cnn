@@ -1,0 +1,59 @@
+---
+id: "ch01-sec01-p01"
+type: "concept"
+title: "지수의 확장"
+tags: ["지수", "지수의 확장"]
+---
+
+# 지수의 확장
+
+지금까지 자연수 범위에서만 정의되었던 지수를 정수, 유리수, 그리고 실수 범위까지 확장해봅시다.
+
+## 1. 지수가 0 또는 음의 정수인 경우
+
+$a \neq 0$ 이고 $n$ 이 양의 정수일 때,
+
+- $a^0 = 1$
+- $a^{-n} = \dfrac{1}{a^n}$
+
+<Callout type="warning">
+주의! $0^0$ 이나 $0^{-n}$ 은 정의하지 않습니다.
+</Callout>
+
+### 예시
+
+$$3^0 = 1, \quad 2^{-3} = \frac{1}{2^3} = \frac{1}{8}$$
+
+## 2. 지수가 유리수인 경우
+
+$a > 0$ 이고 $m$, $n$ 이 정수($n > 0$)일 때,
+
+$$a^{\frac{m}{n}} = \sqrt[n]{a^m} = \left(\sqrt[n]{a}\right)^m$$
+
+<Callout type="tip">
+밑 $a$가 양수일 때만 유리수 지수를 자유롭게 사용할 수 있습니다.
+</Callout>
+
+## 3. 이차함수 탐색
+
+슬라이더로 $a$, $b$, $c$를 바꿔 보며 $y = ax^2 + bx + c$ 그래프가 어떻게 변하는지 확인해 보세요.
+
+<Interactive
+  title="이차함수 그래프"
+  formula="a*x^2 + b*x + c"
+  formulaLatex="y = {a}x^2 + {b}x + {c}"
+  params={[
+    { name: "a", label: "a (이차항)", min: -2, max: 2, default: 1, step: 0.1 },
+    { name: "b", label: "b (일차항)", min: -5, max: 5, default: 0, step: 0.1 },
+    { name: "c", label: "c (상수항)", min: -5, max: 5, default: 0, step: 0.1 },
+  ]}
+  linkedGraph
+  domain={[-4, 4]}
+  range={[-6, 10]}
+/>
+
+<Animation
+  animationId="quadratic-transform"
+  title="이차함수 그래프 변환"
+  speed={1}
+/>

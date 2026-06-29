@@ -1,0 +1,100 @@
+# ══════════════════════════════════════════════════════
+# 배포·빌드에 반드시 필요한 것만 Git에 올립니다.
+# 그 외(문서, 개발 도구, 원본 자료 등)는 로컬에서 관리합니다.
+# ══════════════════════════════════════════════════════
+
+# ── 의존성 ──────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ── Next.js 빌드 산출물 ─────────────────────────────
+.next/
+out/
+build/
+dist/
+
+# ── TypeScript ──────────────────────────────────────
+*.tsbuildinfo
+
+# ── 테스트·품질 검사 산출물 ─────────────────────────
+coverage/
+playwright-report/
+test-results/
+blob-report/
+.eslintcache
+
+# ── 환경 변수 (예시 파일만 추적) ─────────────────────
+.env*
+!.env.example
+
+# ── 로그·디버그 ─────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── prebuild로 자동 생성 (build:search) ─────────────
+public/search/
+
+# ── PWA (next-pwa 빌드 시 자동 생성) ────────────────
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
+public/swe-worker-*.js
+public/swe-worker-*.js.map
+public/fallback-*.js
+
+# ── 배포 플랫폼 캐시 ────────────────────────────────
+.vercel/
+.turbo/
+
+# ── 로컬 전용: 프로젝트 문서·AI 가이드 ──────────────
+AGENTS.md
+작업 명세서.md
+작업 일지.md
+
+# ── 로컬 전용: 코드 스타일·린트 설정 ────────────────
+.prettierrc
+.prettierignore
+.eslintrc.json
+
+# ── 로컬 전용: 콘텐츠 원본·편집 자료 ────────────────
+교과 개념/
+content/docs/
+assets/
+
+# ── 로컬 전용: AI Studio·메타데이터 ─────────────────
+metadata.json
+content/.aistudio/
+
+# ── 로컬 전용: 빌드에 불필요한 스크립트 ─────────────
+# prebuild가 사용하는 build-search-index.ts만 추적
+scripts/*
+!scripts/build-search-index.ts
+
+# ── OS 생성 파일 ────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── 에디터·IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── 기타 ────────────────────────────────────────────
+.cache/
+*.pem

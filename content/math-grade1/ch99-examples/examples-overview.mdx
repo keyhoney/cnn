@@ -1,0 +1,63 @@
+---
+id: "ch99-examples-overview"
+type: "concept"
+title: "MDX 기능 예제 — 전체 개요"
+tags: ["편집가이드", "예제"]
+---
+
+# MDX 기능 예제 — 전체 개요
+
+이 장은 **교재 편집자**가 MDX 파일에서 쓸 수 있는 모든 기능을 **실제로 동작하는 예**로 모아 둔 참고용 페이지입니다.
+
+편집 가이드 문서: `content/docs/교재-편집-가이드.md`
+
+## 이 장에 포함된 예제 페이지
+
+| 페이지 | 파일 | 내용 |
+|--------|------|------|
+| 전체 개요 | `examples-overview.mdx` | 지금 보고 있는 페이지 |
+| 수식 | `examples-math.mdx` | LaTeX, Formula 컴포넌트 |
+| 강조·풀이·표 | `examples-callout-step.mdx` | Callout, StepByStep, ImageNote, Table |
+| 그래프·차트 | `examples-graph-chart.mdx` | Graph, Chart |
+| 애니메이션·탐구 | `examples-animation-interactive.mdx` | Animation, Interactive |
+| 문제 6종 | `examples-problems.mdx` | Problem (mcq, numerical, formula, fillblank, truefalse, order) |
+
+## 사용 가능한 특수 기능 요약
+
+<Callout type="info">
+아래 목록의 이름은 MDX 파일 안에서 `<이름 ... />` 형태로 사용합니다. **대소문자를 정확히** 맞춰 주세요.
+</Callout>
+
+<Table
+  headers={["컴포넌트", "용도", "예제 페이지"]}
+  data={[
+    ["Callout", "정의·공식·주의·팁·참고 상자", "examples-callout-step"],
+    ["Problem", "학생 풀이·채점 문제 (6유형)", "examples-problems"],
+    ["Graph", "함수 그래프", "examples-graph-chart"],
+    ["Chart", "히스토그램·도수분포다각형", "examples-graph-chart"],
+    ["Animation", "개념 애니메이션", "examples-animation-interactive"],
+    ["Interactive", "슬라이더 연동 탐구", "examples-animation-interactive"],
+    ["StepByStep", "단계별 풀이 (독립)", "examples-callout-step"],
+    ["ImageNote", "그림 + 캡션", "examples-callout-step"],
+    ["Table", "표", "examples-callout-step"],
+    ["Formula", "복사·확대 가능한 수식", "examples-math"],
+  ]}
+  caption="표 1. MDX 특수 기능 목록"
+/>
+
+## 일반 글 + 수식 미리보기
+
+**굵은 글**, *기울임*, 목록:
+
+- 첫 번째 항목
+- 두 번째 항목
+
+인라인 수식: $a^m \times a^n = a^{m+n}$
+
+블록 수식:
+
+$$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$
+
+<Callout type="tip">
+새 페이지를 만들 때는 **예제 파일을 복사**한 뒤 내용만 바꾸면 가장 안전합니다.
+</Callout>

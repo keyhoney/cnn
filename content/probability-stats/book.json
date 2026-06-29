@@ -1,0 +1,60 @@
+{
+  "id": "probability-stats",
+  "title": "확률과 통계",
+  "subtitle": "Probability and Statistics",
+  "grade": 2,
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "제1장 경우의 수",
+      "sections": [
+        {
+          "id": "sec01",
+          "title": "경우의 수",
+          "pages": [
+            "page01",
+            "page02",
+            "page03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "제2장 확률",
+      "sections": [
+        {
+          "id": "sec01",
+          "title": "확률",
+          "pages": [
+            "page01",
+            "page02",
+            "page03",
+            "page04",
+            "page05",
+            "page06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "제3장 통계",
+      "sections": [
+        {
+          "id": "sec01",
+          "title": "통계",
+          "pages": [
+            "page01",
+            "page02",
+            "page03",
+            "page04",
+            "page05",
+            "page06",
+            "page07"
+          ]
+        }
+      ]
+    }
+  ]
+}

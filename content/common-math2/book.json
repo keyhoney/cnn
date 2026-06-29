@@ -1,0 +1,64 @@
+{
+  "id": "common-math2",
+  "title": "공통 수학2",
+  "subtitle": "Common Mathematics 2",
+  "grade": 1,
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "제1장 도형의 방정식",
+      "sections": [
+        {
+          "id": "sec01",
+          "title": "도형의 방정식",
+          "pages": [
+            "page01",
+            "page02",
+            "page03",
+            "page04",
+            "page05",
+            "page06",
+            "page07"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "제2장 집합과 명제",
+      "sections": [
+        {
+          "id": "sec01",
+          "title": "집합과 명제",
+          "pages": [
+            "page01",
+            "page02",
+            "page03",
+            "page04",
+            "page05",
+            "page06",
+            "page07",
+            "page08"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "제3장 함수와 그래프",
+      "sections": [
+        {
+          "id": "sec01",
+          "title": "함수와 그래프",
+          "pages": [
+            "page01",
+            "page02",
+            "page03",
+            "page04",
+            "page05"
+          ]
+        }
+      ]
+    }
+  ]
+}

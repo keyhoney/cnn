@@ -1,0 +1,38 @@
+[
+  {
+    "id": "math-grade1",
+    "title": "수학 I",
+    "grade": 1,
+    "description": "고등학교 수학 I 기초부터 심화까지"
+  },
+  {
+    "id": "common-math1",
+    "title": "공통 수학1",
+    "grade": 1,
+    "description": "고등학교 공통수학1"
+  },
+  {
+    "id": "common-math2",
+    "title": "공통 수학2",
+    "grade": 1,
+    "description": "고등학교 공통수학2"
+  },
+  {
+    "id": "algebra",
+    "title": "대수",
+    "grade": 2,
+    "description": "고등학교 대수"
+  },
+  {
+    "id": "calculus1",
+    "title": "미적분1",
+    "grade": 2,
+    "description": "고등학교 미적분Ⅰ"
+  },
+  {
+    "id": "probability-stats",
+    "title": "확률과 통계",
+    "grade": 2,
+    "description": "고등학교 확률과 통계"
+  }
+]
