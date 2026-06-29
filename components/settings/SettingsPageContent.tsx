@@ -150,21 +150,13 @@ export function SettingsPageContent() {
           />
         </AccordionPanel>
 
-        <AccordionPanel title="접근성 · 교사 · 단축키" defaultOpen={false}>
+        <AccordionPanel title="접근성 · 단축키" defaultOpen={false}>
           <div className="px-4 py-4">
             <Link href="/accessibility" className="btn-secondary text-sm">
               접근성 감사 열기
             </Link>
             <p className="mt-2 text-xs text-app-text-muted">
               axe-core 자동 검사, 키보드 탐색 체크리스트, 고대비 대비 검증
-            </p>
-          </div>
-          <div className="border-t border-app-border px-4 py-4">
-            <Link href="/admin" className="btn-secondary text-sm">
-              콘텐츠 관리자 열기
-            </Link>
-            <p className="mt-2 text-xs text-app-text-muted">
-              MDX 파일 편집 및 KaTeX 미리보기 (비밀번호 필요)
             </p>
           </div>
           <div className="border-t border-app-border">

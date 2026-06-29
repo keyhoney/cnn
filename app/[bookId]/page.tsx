@@ -1,8 +1,13 @@
-import { getTableOfContents } from '@/lib/content';
+import { getAllBooks, getTableOfContents } from '@/lib/content';
 import { notFound } from 'next/navigation';
 import { EternaShell } from '@/components/layout/EternaShell';
 import { PageHero } from '@/components/eterna/PageHero';
 import { BookProgressIndex } from '@/components/progress/BookProgressIndex';
+
+export async function generateStaticParams() {
+  const books = await getAllBooks();
+  return books.map((book) => ({ bookId: book.id }));
+}
 
 export default async function BookIndex({ params }: { params: { bookId: string } }) {
   const { bookId } = params;

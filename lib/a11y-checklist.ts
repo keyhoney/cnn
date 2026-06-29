@@ -48,7 +48,7 @@ export const A11Y_AUDIT_ROUTES = [
   { path: '/', name: '홈' },
   { path: '/settings', name: '설정' },
   { path: '/dashboard', name: '대시보드' },
-  { path: '/math-grade1/ch01/page01', name: '교재 뷰어' },
+  { path: '/common-math1/ch01/page01', name: '교재 뷰어' },
   { path: '/accessibility', name: '접근성 감사' },
 ] as const;
 
