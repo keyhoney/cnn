@@ -1,11 +1,5 @@
 [
   {
-    "id": "math-grade1",
-    "title": "수학 I",
-    "grade": 1,
-    "description": "고등학교 수학 I 기초부터 심화까지"
-  },
-  {
     "id": "common-math1",
     "title": "공통 수학1",
     "grade": 1,
